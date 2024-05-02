@@ -1,0 +1,96 @@
+*{
+    /* border: 1px solid red; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign_in_box{
+    display: flex;
+    border: 2px solid rgba(128, 128, 128, 0.25);
+    flex-direction: column;
+    height: 333px;
+    width: 450px;
+    border-radius: 1%;
+    margin-top: 10em;
+}
+
+.header{
+    display: flex;
+    font-size: xx-large;
+    align-items: start;
+    margin-left: 1em;
+    margin-top: 5px;
+}
+
+.email{
+    margin-left: 2em;
+    display: flex;
+    flex-direction: column;}
+
+.email_text{
+    font-size: x-small;
+    align-items: start;}
+
+input{
+    font-size: medium;
+    width: 90%;
+    height: 30px;
+}
+
+.password{
+    margin-left: 2em;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+}
+
+.password_essentials{
+    display: flex;
+    flex-direction: row;}
+
+.password_text{
+    font-size: x-small;
+    align-items: start;
+    margin-left: 5em;
+    margin-top: 2em;
+}
+
+.forgot_password{
+    margin-top: 30px;
+    margin-left: 125px;
+
+}
+
+.forgot{
+    text-decoration: none;
+}
+
+
+.continue{
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.continue_button{
+    width: 85%;
+    height: 33px;
+    border: 2px solid rgba(128, 128, 128, 0.5);
+    background-color: rgb(247, 197, 73);
+    border-radius: 3px;
+}
+
+.needs_help{
+    display: flex;
+    align-items: start;
+    font-size: medium ;
+    margin-left: 3em;
+    text-decoration: none;
+    margin-top: 1.5em;
+
+}
