@@ -3,6 +3,13 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;}
 
+.create_button:hover, .continue_button:hover {
+    filter: brightness(90%);
+    }
+.create_button:in {
+    filter:brightness(80%)
+}
+
 section{
     display: flex;
     justify-content: center;
@@ -11,7 +18,7 @@ section{
 
 .sign_in_box{
     display: flex;
-    border: 2px solid rgba(128, 128, 128, 0.25);
+    border: 1px solid rgba(128, 128, 128, 0.25);
     flex-direction: column;
     height: 333px;
     width: 450px;
@@ -72,7 +79,7 @@ input{
 
 
 .continue{
-    margin-top: 2em;
+    margin-top: 1.5em;
     display: flex;
     justify-content: center;
 }
@@ -88,9 +95,92 @@ input{
 .needs_help{
     display: flex;
     align-items: start;
-    font-size: medium ;
+    font-size: 15px ;
     margin-left: 3em;
     text-decoration: none;
-    margin-top: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
 
+}
+
+.section_2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.new_to_amazon{
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    background-color: rgba(145, 142, 139, 0.75);
+    border: 1px;
+    width: 130px;
+    height: 2px;
+    margin-top: 1.3em;
+    margin-right: 1em;
+}
+
+.text_of_amazon{
+    color: rgba(145, 142, 139, 0.75);
+    font-size: x-small;
+
+}
+
+.right{
+    background-color: rgba(145, 142, 139, 0.75);
+    margin-left: 1em;
+    border: 1px;
+    width: 130px;
+    height: 2px;
+    margin-top: 1.3em;
+}
+
+.create_account{
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    height: 33px;
+
+}
+
+.create_button{
+    padding: 0px;
+    width: 85%;
+    height: 100%;
+    border: 2px solid rgba(128, 128, 128, 0.5);
+    background-color: rgb (233,233,233);
+    border-radius: 3px;
+
+}
+
+footer{
+    display: flex;
+    border-top: solid gray;
+    margin-top: 5em;
+    flex-direction: column;
+    align-items: center;
+    font-size: small;
+}
+
+.links{
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+.conditions{
+    margin: 1em;
+    text-decoration: none;
+}
+
+.privacy{
+    margin: 1em;
+    text-decoration: none;
+}
+
+.help{
+    margin: 1em;
+    text-decoration: none;
 }
